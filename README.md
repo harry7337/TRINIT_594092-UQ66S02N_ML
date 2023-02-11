@@ -18,18 +18,13 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Issues][issues-shield]][issues-url]
-
-
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/harry7337/TRINIT_594092-UQ66S02N_ML">
+    <img src="images/tesseract.jpeg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">ML02 Task for CO2 Detection</h3>
@@ -40,11 +35,7 @@
     <a href="https://ocov2.jpl.nasa.gov/"><strong>Explore the dataset »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    
   </p>
 </div>
 
@@ -56,21 +47,12 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -94,22 +76,6 @@ Use the `README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-### Built With
-
-Here we mention the major frameworks and libraries used throughout the task.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -144,7 +110,9 @@ Here we mention all the relevant features used for training and predicting:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The model is trained on the data from the OCO-2 and GOSAT satellites. The OCO-2 covers a larger region of about 16km whereas GOSAT covers a smaller region of 7km. Hence the trained model is used to accurately predict the CO2 values from the data from the GOSAT satellite. 
+
+The model is trained on all the above mentioned features and learns according to the ground truth of XCO2 values from the GOSAT data.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -158,10 +126,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [x] Download satellite data
 - [x] Cleanup the missing data
 - [x] Feature extraction
+- [x] Neural Network based approach
 - [x] Building the ensemble based model
     - [x] Train the model 
     - [x] Test the model
-- [x] Neural Network based approach
+
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
@@ -169,34 +138,22 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Palgun N P - my0504palsore@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
+Harish Gumnur  - hari.8jan@gmail.com
+
+
+Nikhil P Reddy - nikhil2002s@gmail.com
+
+Project Link: [https://github.com/harry7337/TRINIT_594092-UQ66S02N_ML](https://github.com/harry7337/TRINIT_594092-UQ66S02N_ML)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
