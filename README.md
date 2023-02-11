@@ -66,10 +66,11 @@
 
 Here we propose a novel method to to accurately predict the presence of CO2 bins across the Earth, given the data from the OCO-2 and GOSAT-TANSO-FTS2 level 2 bias corrected satellite data. We train a machine learning model based on the extracted features. This model works particularly well as it is an ensemble between the following approaches:
 
-* K - nearest neighbour Regressor
+* K - nearest neighbour Regressor (score = 0.6517097021602685)
 * Support Vector Regressor
 * Random Forest Regressor
 * Adaboost Regressor
+* Nueral Network(MSE Loss = 44.109375)
 
 
 Use the `README.md` to get started.
