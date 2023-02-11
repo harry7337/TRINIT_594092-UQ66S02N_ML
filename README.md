@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/harry7337/TRINIT_594092-UQ66S02N_ML">
-    <img src="images/tesseract.jpeg" alt="Logo" width="80" height="80">
+    <img src="images/tess.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">ML02 Task for CO2 Detection</h3>
