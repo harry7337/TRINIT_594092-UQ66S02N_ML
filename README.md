@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/harry7337/TRINIT_594092-UQ66S02N_ML">
-    <img src="images/tess.jpg" alt="Logo" width="80" height="80">
+    <img src="images/tesseract.jpeg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">ML02 Task for CO2 Detection</h3>
@@ -64,7 +64,7 @@
 ## About The Project
 
 
-Here we propose a novel method to to accurately predict the presence of CO2 bins across the Earth, given the data from the OCO-2 and GOSAT-TANSO-FTS2 level 2 satellite data. We train a machine learning model based on the extracted features. This model works particularly well as it is an ensemble between the following approaches:
+Here we propose a novel method to to accurately predict the presence of CO2 bins across the Earth, given the data from the OCO-2 and GOSAT-TANSO-FTS2 level 2 bias corrected satellite data. We train a machine learning model based on the extracted features. This model works particularly well as it is an ensemble between the following approaches:
 
 * K - nearest neighbour Regressor
 * Support Vector Regressor
@@ -86,7 +86,7 @@ This step by step explanation provides a better insight into the working of our 
 
 ### Understanding the dataset
 
-We make use of the Level 2 processed data obtained from the OCO-2 and GOSAT-TANSO-FTS2 satellites. We use a combined of about 900 data points each day for a week, in order to train the model. The OCO-2 satellite has a revisit period of 16 days with 227 repeated orbits. Whereas the GOSAT has a revisit period of 3 days with 44 repeated orbits. The information is present in the form of numerical data, and is cleaned up with regards to the missing parameters.
+We make use of the Level 2 bias corrected processed data obtained from the OCO-2 and GOSAT-TANSO-FTS2 satellites. We use a combined of about 900 data points each day for a week, from both the satellites in order to train the model. The OCO-2 satellite has a revisit period of 16 days with 227 repeated orbits. Whereas the GOSAT has a revisit period of 3 days with 44 repeated orbits. The information is present in the form of numerical data, and is cleaned up with regards to the missing parameters.
 
 
 ### Feature Extraction
@@ -160,17 +160,11 @@ Project Link: [https://github.com/harry7337/TRINIT_594092-UQ66S02N_ML](https://g
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+We would like to give due credit to the following resources and people, without whom our project would not have been possible.
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
+* [OCO-2 Dataset](https://ocov2.jpl.nasa.gov/)
+* [GOSAT-TANSO-FTS2 Dataset](https://earth.esa.int/eogateway/catalog/gosat-tanso-fts-and-cai-full-archive-and-new-products?category=Data)
+* Special thanks to [Rohan Rao](rohan.191ee238@nitk.edu.in) for motivating us throughout the project.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
