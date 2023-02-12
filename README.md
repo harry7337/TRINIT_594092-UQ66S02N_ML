@@ -71,7 +71,7 @@ Here we propose a novel method to to accurately predict the presence of CO2 bins
 * Random Forest Regressor (R2 score = 0.80063010740157)
 * Adaboost Regressor (R2 score = -0.21489660722798964)
 * Ensemble of Random Forest Regressor and K - nearest neighbour Regressor (R2 score = 0.8018863198010525)
-* Nueral Network (MSE Loss = 44.109375)
+* Neural Network (MSE Loss = 44.109375)
 
 
 Use the `README.md` to get started.
@@ -116,7 +116,6 @@ The model is trained on the data from the OCO-2 and GOSAT satellites. The OCO-2 
 
 The model is trained on all the above mentioned features and learns according to the ground truth of XCO2 values from the GOSAT data.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,8 +132,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [x] Train the model 
     - [x] Test the model
 
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
