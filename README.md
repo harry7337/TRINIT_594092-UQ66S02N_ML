@@ -71,7 +71,7 @@ Here we propose a novel method to to accurately predict the presence of CO2 bins
 * Random Forest Regressor (R2 score = 0.80063010740157)
 * Adaboost Regressor (R2 score = -0.21489660722798964)
 * Ensemble of Random Forest Regressor and K - nearest neighbour Regressor (R2 score = 0.8018863198010525)
-* Nueral Network(MSE Loss = 44.109375)
+* Nueral Network (MSE Loss = 44.109375)
 
 
 Use the `README.md` to get started.
